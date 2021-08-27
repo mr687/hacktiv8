@@ -1,6 +1,9 @@
 # Assignment 1 - Kampus Merdeka
 Simple portfolio's page with HTML + CSS.
 
+## Preview
+https://mbkm.ngoder.com/Assignment2H8_DaviNomoehDani
+
 ## Large screen
 ![html_only.png](screenshots/large.png)
 

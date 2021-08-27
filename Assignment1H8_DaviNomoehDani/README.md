@@ -1,6 +1,9 @@
 # Assignment 1 - Kampus Merdeka
 Simple portfolio's page with HTML + CSS.
 
+## Preview
+https://mbkm.ngoder.com/Assignment1H8_DaviNomoehDani
+
 ## When my life without CSS styles ⚪️
 ![html_only.png](screenshots/html_only.png)
 
