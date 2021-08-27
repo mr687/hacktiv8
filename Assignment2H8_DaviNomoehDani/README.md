@@ -1,5 +1,5 @@
-# Assignment 1 - Kampus Merdeka
-Simple portfolio's page with HTML + CSS.
+# Assignment 2 - Kampus Merdeka
+Bootstrap implementation.
 
 ## Preview
 https://mbkm.ngoder.com/Assignment2H8_DaviNomoehDani
