@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <ul class="navigation text-right">
+        <li class="item"><a href="./index.html">HOME</a></li>
+        <li class="item"><a href="./product.html">PRODUCT</a></li>
+        <li class="item"><a href="./gallery.html">GALLERY</a></li>
+        <li class="item"><a href="./blog.html">BLOG</a></li>
+        <li class="item"><a href="./inventory.html">INVENTORY</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="container">
+    <section id="profile" class="card row">
+      <div class="row">
+        <div style="margin-right: 10px">
+          <img src="./images/logo.jpeg" alt="profile-image" class="circle">
+        </div>
+        <div>
+          <h1>Davi Nomoeh Dani</h1>
+          <p class="text-grey" style="margin-bottom: 2rem;">Back End Developer</p>
+          <a href="#" class="button blue" style="margin-right: 15px;">Kontak</a>
+          <a href="#" class="button outline green">Resume</a>
+        </div>
+      </div>
+      <div class="row">
+        <div style="margin-right: 1.5rem;">
+          <p>Availability</p>
+          <p>Usia</p>
+          <p>Lokasi</p>
+          <p>Pengalaman</p>
+          <p>Email</p>
+        </div>
+        <div class="text-grey">
+          <p>Part Time</p>
+          <p>21 Tahun</p>
+          <p>Jawa Tengah, Indonesia</p>
+          <p>2 Tahun</p>
+          <p>davinomoehdanino@gmail.com</p>
+        </div>
+      </div>
+    </section>
+    <section id="editProfileForm" class="card">
+      <form action="">
+        <div>
+          <label for="name">Nama</label>
+          <input type="text" id="name" name="name">
+        </div>
+        <div>
+          <label for="role">Role</label>
+          <input type="text" id="role" name="role">
+        </div>
+        <div>
+          <label for="availability">Availability</label>
+          <input type="text" id="availability" name="availability">
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input type="text" id="age" name="age">
+        </div>
+        <div>
+          <label for="location">Lokasi</label>
+          <input type="text" id="location" name="location">
+        </div>
+        <div>
+          <label for="years_experience">Years Experience</label>
+          <input type="text" id="years_experience" name="years_experience">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email">
+        </div>
+        <button type="submit" class="button green block">SUBMIT</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

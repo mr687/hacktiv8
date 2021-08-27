@@ -1,0 +1,19 @@
+:root{
+  --orange: #fd7e14;
+  --grey: #cccccc;
+}
+
+/* OVERRIDE TAG STYLES */
+body{
+  background-color: var(--grey);
+}
+img{
+  max-width: 100%;
+}
+/* END OVERRIDE TAG STYLES */
+
+/* CUSTOM STYLES */
+.bg-orange{
+  background-color: var(--orange);
+}
+/* END CUSTOM STYLES */
