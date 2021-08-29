@@ -1,0 +1,89 @@
+<!-- PROFILE START -->
+<div class="profile">
+  <!-- PROFILE DETAIL START -->
+  <div class="card">
+    <div class="row">
+      <div class="full lg-half">
+        <div class="row text center lg-start">
+          <div class="full lg-fit">
+            <img src="./images/logo.jpeg" alt="">
+          </div>
+          <div class="full lg-auto">
+            <h3 class="profile-name" style="margin-bottom: 1rem;">Davi Nomoeh Dani</h3>
+            <p class="profile-role text muted">Back End Developer</p>
+            <div style="margin: 1rem 0;">
+              <a href="#" class="button blue" style="margin-right: .5rem;">Kontak</a>
+              <a href="#" class="button green outline">Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="full lg-half">
+        <table>
+          <tbody>
+            <tr>
+              <td width="130px">Availability</td>
+              <td class="profile-availability text muted">Part time</td>
+            </tr>
+            <tr>
+              <td>Usia</td>
+              <td class="profile-age text muted">21</td>
+            </tr>
+            <tr>
+              <td>Lokasi</td>
+              <td class="profile-location text muted">Jawa Tengah, Indonesia</td>
+            </tr>
+            <tr>
+              <td>Pengalaman</td>
+              <td class="profile-experience text muted">2 tahun</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td class="profile-email text muted">davinomoehdanino@gmail.com</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- PROFILE DETAIL END -->
+
+  <!-- FORM START -->
+  <div class="card">
+    <form action="/" id="profile-edit" method="patch">
+      <div>
+        <label for="name">Nama</label>
+        <input type="text" name="name" required="" id="name">
+      </div>
+      <div>
+        <label for="role">Role</label>
+        <input type="text" name="role" required="" id="role">
+      </div>
+      <div>
+        <label for="availability">Availability</label>
+        <input type="text" name="availability" required="" id="availability">
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input type="text" name="age" required="" id="age">
+      </div>
+      <div>
+        <label for="location">Lokasi</label>
+        <input type="text" name="location" required="" id="location">
+      </div>
+      <div>
+        <label for="experience">Year's Experience</label>
+        <input type="text" name="experience" required="" id="experience">
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="text" name="email" required="" id="email">
+      </div>
+      <div>
+        <button type="submit" class="uppercase button green block">submit</button>
+      </div>
+    </form>
+  </div>
+  <!-- FORM END -->
+</div>
+<!-- PROFILE END -->
