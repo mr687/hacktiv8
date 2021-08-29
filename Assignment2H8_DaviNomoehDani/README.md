@@ -12,7 +12,7 @@ https://mbkm.ngoder.com/Assignment2H8_DaviNomoehDani
 
 ## Clone and Run
 ```sh
-$ cd Assignment1H8_DaviNomoehDani
+$ cd Assignment2H8_DaviNomoehDani
 $ php -S 127.0.0.1:7777
 ```
 
