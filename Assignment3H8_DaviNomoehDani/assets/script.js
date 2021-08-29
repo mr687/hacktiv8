@@ -93,6 +93,9 @@ async function loadPage(){
   const path = './pages/'
   const main = $.querySelector('main')
   main.innerHTML = await fetchHtmlAsText(`${path}${page}`)
+  if (page === 'home'){
+    loadData(profileData)
+  }
 }
 
 async function fetchHtmlAsText(url) {
