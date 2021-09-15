@@ -14,7 +14,7 @@ const profileData = {
   availability: 'Part Time',
   age: 21,
   location: 'Jawa Tengah, Indonesia',
-  experience: 2,
+  experience: 3,
   email: 'davinomoehdanino@gmail.com'
 }
 
@@ -24,6 +24,9 @@ $.addEventListener('DOMContentLoaded', async () => {
 
   const profileEdit = $.getElementById('profile-edit')
   profileEdit.addEventListener('submit', saveData, false)
+
+  const buttonMenu = $.querySelector('button.menu')
+  buttonMenu.addEventListener('click', toggleMenu, false)
 
   $.addEventListener('click', router, false)
 })

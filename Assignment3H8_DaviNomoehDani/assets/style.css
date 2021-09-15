@@ -154,7 +154,7 @@ tbody tr td{
 @media (min-width: 992px) {
   .navbar .nav{
     margin-top: 0;
-    display: flex;
+    display: flex !important;
     flex-direction: row;
     position: relative;
   }
