@@ -45,7 +45,7 @@ function parsedRequest(){
     unset( $_POST['_method'] );
   }
 
-  $path = @$_SERVER['PATH_INFO'] ?? '/';
+  $path = @$_SERVER['REQUEST_URI'] ?? '/';
   $route = strtolower("{$method}:{$path}");
   return [
     'method' => strtolower($method),
