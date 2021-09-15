@@ -71,7 +71,7 @@ function userLoggedIn(){
 // include view
 define('VIEW_PATH', SRC_PATH.'/View/');
 function view($path, $data = null){
-  if (!str_ends_with('.php', $path)) $path = "{$path}.php";
+  $path = "{$path}.php";
   
   $viewPath = VIEW_PATH.$path;
   if ( !file_exists($viewPath) ) die("View not found: {$viewPath}");
