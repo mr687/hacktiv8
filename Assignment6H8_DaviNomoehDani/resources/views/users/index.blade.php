@@ -23,9 +23,9 @@
           <td colspan="4" class="text-center">No Users</td>
         </tr>
       @else
-        @foreach($users as $i => $user)
+        @foreach($users as $user)
           <tr>
-            <td>{{ $i+1 }}</td>
+            <td>{{ $loop->iteration }}</td>
             <td>{{ $user->name }}</td>
             <td>{{ $user->email }}</td>
             <td>@include('users/partials/actions', ['user' => $user])</td>
@@ -34,4 +34,5 @@
       @endif
     </tbody>
   </table>
+  {{ $users->links() }}
 @endsection
