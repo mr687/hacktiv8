@@ -8,7 +8,9 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
     public function index(Request $request){
-        $users = User::orderBy('created_at', 'desc')->get();
+        $perPage = 10;
+        $users = User::orderBy('created_at', 'desc')
+            ->paginate($perPage);
         return view('users.index', compact('users'));
     }
     public function create(Request $request){
