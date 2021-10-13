@@ -148,6 +148,8 @@
     </section>
     {{-- END NEWS SECTION --}}
 
+    <hr>
+
     {{-- SHORT DESCRIPTION SECTION --}}
     <section id="short-description">
       <h4 class="text-center mb-4">Toko Online Menggunakan Laravel</h4>
