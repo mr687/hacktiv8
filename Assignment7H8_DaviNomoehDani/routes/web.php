@@ -1,8 +1,6 @@
 <?php
 
-use App\Http\Controllers\ProductController;
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', fn() => response()->json([
-  'message' => 'no view.'
-]));
+Route::get('/{page?}', PageController::class);
