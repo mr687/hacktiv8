@@ -29,7 +29,7 @@
     <section id="product-categories" class="mb-5">
       <h4 class="text-center mb-4">Kategori Produk</h4>
       <div class="row">
-        <div class="col col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" class="card-img-top">
             <div class="card-body">
@@ -39,7 +39,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" class="card-img-top">
             <div class="card-body">
@@ -49,7 +49,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <img src="https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="card-img-top">
             <div class="card-body">
@@ -67,7 +67,7 @@
     <section id="product-promos" class="mb-5">
       <h4 class="text-center mb-4">Promo Terbaru</h4>
       <div class="row">
-        <div class="col col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <img src="https://images.unsplash.com/photo-1593087130576-389402bc050a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" class="card-img-top">
             <div class="card-body">
@@ -79,7 +79,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <img src="https://images.unsplash.com/photo-1558108545-a0f86eda7d55?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" class="card-img-top">
             <div class="card-body">
@@ -91,7 +91,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <img src="https://images.unsplash.com/photo-1548100721-15f0e76035c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" class="card-img-top">
             <div class="card-body">
@@ -111,7 +111,7 @@
     <section id="new-products" class="mb-5">
       <h4 class="text-center mb-4">Produk Terbaru</h4>
       <div class="row">
-        <div class="col col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <img src="https://images.unsplash.com/photo-1625772452859-1c03d5bf1137?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80" class="card-img-top">
             <div class="card-body">
@@ -122,7 +122,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <img src="https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="card-img-top">
             <div class="card-body">
@@ -133,7 +133,7 @@
             </div>
           </div>
         </div>
-        <div class="col col-md-4">
+        <div class="col-12 col-md-4">
           <div class="card">
             <img src="https://images.unsplash.com/photo-1484704849700-f032a568e944?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" class="card-img-top">
             <div class="card-body">
